@@ -49,7 +49,7 @@ if __name__=='__main__':
   parser.add_argument('--exp_name', type=str, default = 'MNIST', help='experiment name')
   parser.add_argument('--batch_size', type=int, default=10, help="batch size")
   parser.add_argument('--lr', type=float, default=1e-3, help="learning rate")
-  parser.add_argument('--epochs', type=int, default=50, help="number of training epochs")
+  parser.add_argument('--epochs', type=int, default=10, help="number of training epochs")
 
   args = parser.parse_args()
   exp_name = args.exp_name
